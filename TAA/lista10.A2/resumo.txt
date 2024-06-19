@@ -1,0 +1,3 @@
+ex1 - vetor para matriz de adjacência
+ex2 - verifica ligações 
+ex3 - menor caminho, bfs

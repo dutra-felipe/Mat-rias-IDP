@@ -1,0 +1,3 @@
+pai e filho - vetor para arvore exibindo os filhos e pais
+reuniao - unordered set (exibição de repetidos)
+teatro - set (inserção na ordem e localização pelo index)

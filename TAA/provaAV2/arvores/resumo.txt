@@ -1,0 +1,5 @@
+compras - set
+dijkstra - set
+estrutura - priority queue, queue, pilha
+feira - map
+listar arvores - map

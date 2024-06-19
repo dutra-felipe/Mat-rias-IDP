@@ -1,0 +1,5 @@
+pedras - unordered set (pesquisar modelo)
+anagrama - palavras iguais  
+hash - tabela hash
+soma_dificil - ordenação
+soma - ordenação

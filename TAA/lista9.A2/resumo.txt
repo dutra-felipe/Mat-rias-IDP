@@ -1,0 +1,6 @@
+ex1 - vetor para matriz de adjacência
+ex2 - vetor para ponto do grafo, queue
+ex3 - vetor para ponto do grafo, queue
+ex4 - vetor para ponto do grafo, priority_queue
+ex5 - vetor para ponto do grafo, pilha
+ex6 - grafo com pesos

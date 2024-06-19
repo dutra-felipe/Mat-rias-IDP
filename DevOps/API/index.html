@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Acessando API </title>
+</head>
+<body>
+  <h1>Acessando API</h1>
+  <div id="user"></div>
+  <script>
+    let userDiv = document.getElementById("user");
+    async function getUsers() {
+      try {
+        let response = await fetch("https://randomuser.me/api/");
+        let userData = await response.json();
+        userDiv.innerHTML = `
+          <p> name: ${userData.results[0].name.first} ${userData.results[0].name.last}</p>
+          <p> email: ${userData.results[0].email}</p>
+          <p> gender: ${userData.results[0].gender}</p>
+          <img src="${userData.results[0].picture.medium}" />
+        `;
+      } catch(error) {
+        console.log(error);
+      }
+    }
+    getUsers();
+  </script>
+</body>
+</html>

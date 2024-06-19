@@ -1,0 +1,27 @@
+PROCESSO DE ADD REPOSITÓRIO NO GITHUB
+
+1. 'git init' - inicializa o git
+
+        se quiser, pode criar uma branch com o passo A e B
+
+2. 'git add nome-do-arquivo' ou 'git add .' - add ao git o arquivo pedido ou todos (add .)
+
+3. 'git commit -m "nome-do-commit" - commit
+
+4. Crie o repositório no GITHUB
+
+5. Copie a URL do repositório remoto. Deve ser algo como 'https://github.com/seu-usuario/nome-do-repositorio.git'
+
+6. 'git remote add origin https://github.com/seu-usuario/nome-do-repositorio.git' - Adicione o repositório remoto
+
+7. 'git push -u origin (nome da branch)' - envia as alterações para o github 
+
+        Passo C, D e E
+
+
+OBS: passo a passo se tiver branch
+'git checkout -b minha-nova-branch - criar uma nova branch (opcional)
+‘git checkout minha-nova-branch’ - verifica se está na branch
+‘git pull origin (nome da branch)’ - atualiza a branch com as últimas modificações
+‘git merge main’ - mescla a branch criada na principal
+Fazer o pull request no github

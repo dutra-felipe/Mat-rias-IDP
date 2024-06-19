@@ -1,0 +1,7 @@
+churras - set (ordenação de strings e retira repetidos)
+corrompido - map de pair (identificação de repetidos)
+arvore - exibir arvore
+filhos - vetor para arvore exibindo os filhos 
+nota - priority queue (ordenação)
+pai - vetor para arvore exibindo os pais 
+pockemon - priority queue (ordenação)
